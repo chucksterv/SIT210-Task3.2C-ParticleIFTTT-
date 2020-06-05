@@ -21,7 +21,7 @@ void loop() {
   }
   else
   {
-      Particle.publish("Sunlight", "Hits");
+      Particle.publish("Sunlight", "Doesn't Hit");
   }
   
     
